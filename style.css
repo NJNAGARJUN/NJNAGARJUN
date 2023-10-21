@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+a{
+    color: red;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+}
+
+.container{
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 40%;
+    min-width: 8px;
+    background: rgba(225, 225, 225, 0.2)
+    dispaly: flex;
+    alin-items: center;
+    border-radius: 25px;
+    padding: 10px 5px;
+  }
+  search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+  }
+  
+::placeholder{
+  color: white;
+}
+.search-bar button img{
+  width: 60px;
+}
+.search-bar button{
+  border: 0;
+  border-radius: 70%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+
+.box{
+    
+    margin: 3%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: inline-block;
+    width: 250px;
+}
+.box:hover{
+    background-color: red;
+    color: black;
+}
+
+.products{
+    text-align: right;
+}
+
+.about as{
+    margin-top: 20px;
+    padding: 20px;
+   
+    
+}
+
+ .contanct{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin: 10%;
+ }
+ nav{
+    flex-wrap: row nowwrp;
+
+ }
+
